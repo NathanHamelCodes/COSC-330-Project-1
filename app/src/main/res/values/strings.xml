@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Project1_2</string>
+
+
+    <string-array name="eye">
+        <item>...</item>
+        <item>Eye</item>
+        <item>Mouth</item>
+    </string-array>
+
+    <string-array name="ear">
+        <item>...</item>
+        <item>Ear</item>
+        <item>Nose</item>
+    </string-array>
+
+    <string-array name="head">
+        <item>...</item>
+        <item>Head</item>
+        <item>Leg</item>
+    </string-array>
+
+    <string-array name="shoulder">
+        <item>...</item>
+        <item>Shoulder</item>
+        <item>Elbow</item>
+    </string-array>
+
+    <string-array name="stomach">
+        <item>...</item>
+        <item>Stomach</item>
+        <item>Hand</item>
+    </string-array>
+
+    <string-array name="arm">
+        <item>...</item>
+        <item>Arm</item>
+        <item>Leg</item>
+    </string-array>
+
+    <string-array name="back">
+        <item>...</item>
+        <item>Back</item>
+        <item>Shoulder</item>
+    </string-array>
+
+    <string-array name="mouth">
+        <item>...</item>
+        <item>Mouth</item>
+        <item>Ear</item>
+    </string-array>
+
+    <string-array name="nose">
+        <item>...</item>
+        <item>Nose</item>
+        <item>Mouth</item>
+    </string-array>
+
+    <string-array name="hand">
+        <item>...</item>
+        <item>Foot</item>
+        <item>Hand</item>
+    </string-array>
+
+    <string-array name="foot">
+        <item>...</item>
+        <item>Hand</item>
+        <item>Foot</item>
+    </string-array>
+
+    <string-array name="neck">
+        <item>...</item>
+        <item>Hair</item>
+        <item>Neck</item>
+    </string-array>
+
+    <string-array name="chest">
+        <item>...</item>
+        <item>Chest</item>
+        <item>Back</item>
+    </string-array>
+
+    <string-array name="fruit">
+        <item>...</item>
+        <item>Apples</item>
+        <item>Bananas</item>
+        <item>Grapes</item>
+        <item>Oranges</item>
+        <item>Strawberries</item>
+    </string-array>
+
+    <string-array name="vegetables">
+        <item>...</item>
+        <item>Broccoli</item>
+        <item>Carrots</item>
+        <item>Peas</item>
+        <item>Spinach</item>
+        <item>String beans</item>
+    </string-array>
+
+    <string-array name="grains">
+        <item>...</item>
+        <item>Brown rice</item>
+        <item>Corn bread</item>
+        <item>Pasta</item>
+        <item>Tortillas</item>
+        <item>Wheat bread</item>
+    </string-array>
+
+    <string-array name="protein">
+        <item>...</item>
+        <item>Beef</item>
+        <item>Black Beans</item>
+        <item>Chicken</item>
+        <item>Nuts</item>
+        <item>Fish</item>
+    </string-array>
+
+    <string-array name="dairy">
+        <item>...</item>
+        <item>Cheese</item>
+        <item>Milk</item>
+        <item>Yogurt</item>
+    </string-array>
+
+    <string-array name="medLabels">
+        <item>...</item>
+        <item>Warnings</item>
+        <item>Uses</item>
+        <item>Directions</item>
+        <item>Active Ingredient</item>
+        <item>Side Effects</item>
+    </string-array>
+
+</resources>

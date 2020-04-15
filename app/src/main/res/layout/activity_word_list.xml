@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3C3C3"
+    tools:context=".WordList">
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="325dp"
+        android:layout_height="47dp"
+        android:elevation="100dp"
+        android:text="Glossary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="360dp"
+        android:layout_height="69dp"
+        android:background="#BDD7EE"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="363dp"
+        android:layout_height="446dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableLayout
+            android:layout_width="360dp"
+            android:layout_height="419dp"
+            android:stretchColumns="*"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:minHeight="20dp"
+                    android:text="Pictures"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:background="@drawable/cell_shape"
+
+                    android:gravity="center"
+                    android:text="Word"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="How do I say it?"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="What does it mean?"
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/appointment" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Appointment"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="uh POINT ment"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView86"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="A meeting with a health care professional."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/checkup" />
+
+                <TextView
+                    android:id="@+id/textView87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Checkup"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="CHECK up"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView89"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center|center_vertical"
+                    android:text="A visit to the doctor when you are not sick, also called a well visit"
+                    android:textSize="10sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/copay" />
+
+                <TextView
+                    android:id="@+id/textView90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Co-pay"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="CO paa"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView91"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="When you pay a set fee every time you go to the doctor and your insurance pays the rest."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView30"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/emergency" />
+
+                <TextView
+                    android:id="@+id/em1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Emergency"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/em2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="ee MER gen see"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/em3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="An unexpected situation which poses an immediate health risk."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/hi"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/healthinsurance" />
+
+                <TextView
+                    android:id="@+id/hi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Health insurance"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/hi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="H elth In SHER uns"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/hi3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="A program where you pay each copay and then the program pays for your healthcare"
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/medin"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/medicalinterpreter" />
+
+                <TextView
+                    android:id="@+id/mi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Medical Interpreter"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/mi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="MED uh cal in TERP ret er"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/mi3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="A person who is trained to translate for doctors and patients."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pcc"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/primarycarecenter" />
+
+                <TextView
+                    android:id="@+id/pcc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Primary Care Center"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/pcc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Pri Mar EE Kare Senter"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/pcc3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="A place for you to go for basic health care needs."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ucc"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/urgentcare" />
+
+                <TextView
+                    android:id="@+id/uc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Urgent Care Center"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/uc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Ur gent Kare Senter"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/ucc3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="A category of walk-in clinic. Primarily treat injuries or illnesses requiring immediate care, but not serious enough for an ER visit."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/hc"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/healthclinic" />
+
+                <TextView
+                    android:id="@+id/hc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Health Clinic"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/hc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="H elth KLIN ic"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/hc3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="A health care center staffed by a group of health practitioners and nurses provides typical health services."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/al"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/allergy" />
+
+                <TextView
+                    android:id="@+id/al1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Allergy"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/al2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="AL ler JEE"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/al3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Reaction to foods, medications, products, etc may cause allergic reations."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/hd"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/healthdepartment" />
+
+                <TextView
+                    android:id="@+id/hd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Health Department"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/hd2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="H elth DEE part ment"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/hd3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="A division of a local or larger government responsible for the oversight and care of matters relating to public health."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/fe"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/fever" />
+
+                <TextView
+                    android:id="@+id/fe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Fever"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/fe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="FEE ver"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/fe3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="When your body temperature is too high."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/he"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/headache" />
+
+                <TextView
+                    android:id="@+id/he1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Headache"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/he2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Hed A eek"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/he3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="A pain in your head."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/hehi"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/healthhistory" />
+
+                <TextView
+                    android:id="@+id/hehi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Health History"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/hehi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="H elth HISS tor EE"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/hehi3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="The health problems you had in the past."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/med"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/medicine" />
+
+                <TextView
+                    android:id="@+id/med1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Medicine"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/med2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="MED uh sin"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/med3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Used when you are sick or have aches and pain to help make you feel well."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/so"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/sorethroat" />
+
+                <TextView
+                    android:id="@+id/so1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Sore Throat"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/so2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="SOR th ROT"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/so3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="When your throat hurts, it is hard to swallow."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/sym"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/symptoms" />
+
+                <TextView
+                    android:id="@+id/sym1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Symptoms"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/sym2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="SIMP tums"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/sym3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Something that happens in the body that shows you have an injury or illness."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/gen"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/generic" />
+
+                <TextView
+                    android:id="@+id/gen1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Generic Medicine"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/gen2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Gen AIR ik MED uh sin"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/gen3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Not a name brand medicine, usually less expensive than the name brand."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/lab"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/label" />
+
+                <TextView
+                    android:id="@+id/lab1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Label"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/lab2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="LA bel"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/lab3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="On the bottle or box to describe the medicine and how to take it."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/otc"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/otc" />
+
+                <TextView
+                    android:id="@+id/otc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Over-the-counter (OTC)"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/otc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="O ver the COUNT er"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/otc3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Medicine anyone can buy at a store, you do not need a prescription."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pharmacy"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/pharmacy" />
+
+                <TextView
+                    android:id="@+id/pharmacy1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Pharmacy"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/pharmacy2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="FARM uh see"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/pharmacy3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Where you go to buy medicine."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pharmacist"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/pharmacist" />
+
+                <TextView
+                    android:id="@+id/pharmacist1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Pharmacist"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/pharmacist2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="FARM us sist"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/pharmacist3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="A person who works in the pharmacy and fills prescriptions."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pres"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/prescription" />
+
+                <TextView
+                    android:id="@+id/pres1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Prescription (RX)"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/pres2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Pre SCRIP shun"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/pres3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="You need one of these to buy some kinds of medication."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/tea"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/teaspoon" />
+
+                <TextView
+                    android:id="@+id/tea1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Teaspoon"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tea2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Ti SPU n"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tea3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Measurement of how much liquid medicine is needed. (tsp)"
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ml"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/milliliter" />
+
+                <TextView
+                    android:id="@+id/ml1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Milliliter"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/ml2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Mil e LEE Ter"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/ml3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Measurement of liquid medicine. (mL)"
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/tb"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/tablespoon" />
+
+                <TextView
+                    android:id="@+id/tb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Tablespoon"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="T A ble SPU n"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tb3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Tbsp equals 3 teaspoons or 15 mL"
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/va"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/vaccine" />
+
+                <TextView
+                    android:id="@+id/va1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Vaccine"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/va2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="VAK seen"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/va3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Provides immunity against one or several diseases."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imm"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/immunization" />
+
+                <TextView
+                    android:id="@+id/imm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Immunization"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/imm2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="IM yoon ZA Shun"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/imm3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Becoming immune to disease, typically by getting a vaccine."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/side"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/sideeffect" />
+
+                <TextView
+                    android:id="@+id/side1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Side Effect"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/side2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="SIE e fekt"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/side3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="An effect you get from taking some medicines."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/fib"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/fiber" />
+
+                <TextView
+                    android:id="@+id/fib1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Fiber"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/fib2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="FI bur"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/fib3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Foods that help you feel full and helps stool come out."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/nut"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/nutrient" />
+
+                <TextView
+                    android:id="@+id/nut1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Nutrient"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/nut2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="New TREE ent"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/nut3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="In foods and needed by people to stay healthy."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ob"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/obesity" />
+
+                <TextView
+                    android:id="@+id/ob1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Obesity"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/ob2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="oh BEE sit ee"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/ob3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Being very overweight."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/rec"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/recipe" />
+
+                <TextView
+                    android:id="@+id/rec1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Recipe"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/rec2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Re si PEE"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/rec3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="List of what goes into a meal and how to prepare it."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/sod"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/sodium" />
+
+                <TextView
+                    android:id="@+id/sod1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Sodium"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/sod2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="SO dee um"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/sod3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Another word for salt. Should be eaten in limited amounts."
+                    android:textSize="10sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/vit"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+
+                    app:srcCompat="@drawable/vitamin" />
+
+                <TextView
+                    android:id="@+id/vit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="Vitamins"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/vit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="VI ta mins"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/vit3"
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:gravity="center"
+                    android:text="A kind of nutrient in foods that help fight sickness and keep the body strong and healthy."
+                    android:textSize="10sp" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
